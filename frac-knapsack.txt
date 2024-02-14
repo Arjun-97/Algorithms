@@ -1,0 +1,10 @@
+Fractional Knapsack Problem using Greedy Approach
+
+Items x = [x1,x2,....xn]
+Weight w = [w1,w2,....wn]
+Profit v = [v1,v2,....vn]
+
+n = Total no. of items
+M = Knapsack Capacity
+
+Given that n = 3, M = 20, v = [24,25,15], w = [18,15,20]
