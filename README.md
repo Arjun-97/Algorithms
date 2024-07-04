@@ -1,1 +1,2 @@
-These are some of the sorting techniques and normal problems of DSA, implemented in C++. The codes aren't ideal but it works (except job scheduling)
+# Algorithms
+Implementations of some DSA concepts, currently in C++ and Lua with plans to expand more
