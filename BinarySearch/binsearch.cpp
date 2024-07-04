@@ -1,7 +1,10 @@
 #include <iostream>
+#include <algorithm>
 
 #define cin std::cin
 #define cout std::cout
+#define endl std::endl
+#define sort std::sort
 
 int binarySearch(int arr[], int n, int find) {
     int start = 0, end = n - 1;
@@ -36,6 +39,13 @@ int main() {
 
     cout << "Enter an element to search: ";
     cin >> find;
+
+    sort(arr, arr + n);
+    cout << "Sorted array: ";
+    for(int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 
     int ans = binarySearch(arr, n, find);
 

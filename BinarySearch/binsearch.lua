@@ -30,6 +30,15 @@ function main()
     io.write("Enter an element to search: ")
     local find = io.read("*n")
 
+    table.sort(arr)
+
+    print("Sorted array: ")
+
+    for i = 1, n do
+        io.write(arr[i].." ")
+    end
+    print()
+
     local ans = binSearch(arr, find)
 
     if ans == -1 then
